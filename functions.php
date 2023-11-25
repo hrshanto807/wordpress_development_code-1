@@ -1,4 +1,4 @@
-<?php
+ <?php
 
 function themeFunction()
 {
@@ -21,22 +21,10 @@ function themeFunction()
     // for make header image
     add_theme_support('custom-header');
 
-    add_theme_support('custom-header', array(
-        'default-image'          => '',
-        'random-default'         => false,
-        'width'                  => 0,
-        'height'                 => 0,
-        'flex-height'            => false,
-        'flex-width'             => false,
-        'default-text-color'     => '',
-        'header-text'            => true,
-        'uploads'                => true,
-        'wp-head-callback'       => '',
-        'admin-head-callback'    => '',
-        'admin-preview-callback' => '',
-        'video'                  => false,
-        'video-active-callback'  => 'is_front_page',
-    ));
+    // add_theme_support('custom-header', array(
+    //     'default-image'          => '',
+       
+    // ));
 
     // for make background image
     add_theme_support('custom-background');
@@ -61,6 +49,7 @@ function defult_menu()
 
 
 <?php };
+
 
 
 
